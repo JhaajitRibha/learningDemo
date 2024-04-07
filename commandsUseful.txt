@@ -117,4 +117,11 @@ fork is a rough copy - same code and same setting of the forked one.
 
 - mainly copy code of other person in our account.
 
-we can fix other code and create pull request to contribute in other person code.
+we can fix other code and create pull request to contribute in other person code.c
+
+----------------------------
+
+extra knowledge
+
+git reset --hard Head~1 - this will come back to previous commit on local repo
+git push origin main --force - this will then make the previous commit pushed on remote repo and latest commit would be deleted from remote repo.
