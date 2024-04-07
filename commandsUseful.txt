@@ -15,6 +15,8 @@ git commit -m "message" - to commit
 git add  - to staged.
 git add . - to staged all file.
 
+git add --all :!file_to_leave_out -  to add file leaving one file there.
+
 push command - upload local repo content to remote repo.
 
 git push origin main - command to push
