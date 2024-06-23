@@ -1,0 +1,28 @@
+docker -v  - check the version
+docker =-version = check the version
+
+docker pull <imageName> - to pull docker image from docker hub
+docker images - to list all the images
+docker search <image> - to search images related to sftp on docker hub
+docker run <imageName>/<imageId> - to run images/make docker container
+docker ps  -  running container list
+docker ps -a  - list of all container whether running/exited.
+docker run --name newNameOfImage -d imageName/imageId - to detached the image and create the same image differently with your own custom name.
+-d - detached - to run in backround.
+docker run --name yourCutomImageName -it -d imageName - to run the image with custom name and don't exit , it means interactive mode.
+docker exec -it containerId python3 - it will run python on commandlineterminal now you can run python code.
+docker inspect containerId - log all information of container.
+
+docker stop containerId/containerName - to stop
+docker rm containerId/containerName - to remove even from all list.
+docker rmi imageId/imageContainer - to remove images from the list.
+
+docker restart containerId/containerName- to restart the container
+
+docker login
+docker commit
+docker push
+docker copy
+docker logs containerId/containerName
+docker volume
+docker logout
