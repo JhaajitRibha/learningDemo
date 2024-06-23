@@ -1,4 +1,4 @@
 # learningDemo
-This is my first Git Repository
+All useful commands used in software engineering world.
 
-Author-Ajit Jha(Learning)
+Author-Ajit Jha
